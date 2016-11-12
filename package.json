@@ -2,10 +2,17 @@
   "name": "my-node-stack",
   "version": "1.0.0",
   "description": "My own little node.js stack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/runelk/my-node-stack"
+  }
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rune Lain Knudsen",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
