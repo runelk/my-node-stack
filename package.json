@@ -1,0 +1,11 @@
+{
+  "name": "my-node-stack",
+  "version": "1.0.0",
+  "description": "My own little node.js stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rune Lain Knudsen",
+  "license": "ISC"
+}
