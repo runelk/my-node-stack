@@ -8,12 +8,16 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Rune Lain Knudsen",
   "license": "MIT",
   "dependencies": {
     "dotenv-safe": "^3.0.0",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.3"
   }
 }
