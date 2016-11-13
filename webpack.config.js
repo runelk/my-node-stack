@@ -13,6 +13,19 @@ const config = {
   output: {
     path: path.resolve(PATHS.public, 'js'),
     filename: '[name].js'
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        include: PATHS.client,
+        exclude: /node_modules/,
+        loader: 'babel',
+        query: {
+          presets: ['es2015']
+        }
+      }
+    ]
   }
 };
 
