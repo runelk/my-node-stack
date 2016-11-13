@@ -9,9 +9,12 @@ Personal node.js setup for prototypes etc.
 - [webpack](https://webpack.github.io/)
 - [sequelize](http://docs.sequelizejs.com/)
 
-## Commands
+## Routes
 
-- `npm run build` - build client-side javascript
+Routes are defined in `src/server/routes`. View routes are defined in
+`web.js`. REST routes are defined in `api.js`. `index.js` takes care
+of importing routes from both of these, adding REST routes to `/api`
+urls.
 
 ## Sequelize
 
@@ -30,6 +33,10 @@ dev, test and prod are to be found in the `db` folder by default.
 - config file: `config/sequelize.json`
 
 ### Important Commands
+
+## NPM
+
+- `npm run build` - build client-side javascript
 
 #### Migrating
 
