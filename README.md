@@ -4,10 +4,16 @@ Personal node.js setup for prototypes etc.
 
 ## Tech
 
-- [express.js](http://expressjs.com/)
-- [dotenv-safe](https://www.npmjs.com/package/dotenv-safe)
-- [webpack](https://webpack.github.io/)
-- [sequelize](http://docs.sequelizejs.com/)
+- [express.js](http://expressjs.com/) (Routing, REST, etc.)
+- [dotenv-safe](https://www.npmjs.com/package/dotenv-safe) (handling environment variables)
+- [webpack](https://webpack.github.io/) (bundling etc.)
+- [sqlite3](https://github.com/mapbox/node-sqlite3) (embedded database)
+- [sequelize](http://docs.sequelizejs.com/) (ORM models)
+- [ejs](http://ejs.co/) (template rendering)
+
+## Views
+
+Views are defined in `src/views`, using the EJS templating language.
 
 ## Routes
 
