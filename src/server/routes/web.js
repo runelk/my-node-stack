@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router({mergeParams: true});
 
+var models = require('../database/sequelize/models');
+
 router.route('/')
   .get(function(req, res) {
     res.render('index', {
@@ -11,7 +13,13 @@ router.route('/')
 
 router.route('/examples')
   .get(function(req, res) {
-    res.send("Examples galore in a bit!");
+    models.Example.findAll().then(function(examples) {
+      res.render('examples', {
+        heading: 'Some Examples',
+        examples: examples,
+        bundle: 'index'
+      });
+    });
   });
 
 module.exports = router;

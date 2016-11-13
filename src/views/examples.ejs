@@ -1,0 +1,15 @@
+<div class="examples">
+  <h1><%= heading %></h1>
+  <ul>
+    <% examples.forEach(function(example) { %>
+      <li>
+        <a href="<%= example.url %>">
+          <%= example.name %>
+        </a>
+        (<%= example.text %>)
+      </li>
+    <% }); %>
+  </ul>
+
+  <script src="js/<%= bundle %>.js"></script>
+</div>
