@@ -3,7 +3,10 @@ var router = express.Router({mergeParams: true});
 
 router.route('/')
   .get(function(req, res) {
-    res.sendFile('index.html');
+    res.render('index', {
+      heading: 'Why hello there...!',
+      bundle: 'index'
+    });
   });
 
 router.route('/examples')
