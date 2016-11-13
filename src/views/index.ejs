@@ -1,10 +1,15 @@
-<div class="app">
-  <h1><%= heading %></h1>
-  <p>
-    How about we check out some <a href="/examples">examples</a>?
-  </p>
+<!doctype html>
+<html lang="en">
 
-  <div id="app"></div>
+  <% include head %>
 
-  <script src="js/<%= bundle %>.js"></script>
-</div>
+  <div class="main">
+    <h1><%= heading %></h1>
+    <p>
+      How about we check out some <a href="/examples">examples</a>?
+    </p>
+
+    <% include app %>
+  </div>
+
+</html>
