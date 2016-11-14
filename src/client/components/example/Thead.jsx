@@ -5,8 +5,8 @@ const Thead = () => {
     <thead>
       <tr>
         <th>Url</th>
-        <th>Name</th>
         <th>Text</th>
+        <th>Name</th>
       </tr>
     </thead>
   )
