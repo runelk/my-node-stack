@@ -1,15 +1,14 @@
 <!doctype html>
 <html lang="en">
 
-  <% include head %>
+  <% include partials/head %>
+  <% include partials/header %>
 
-  <div class="main">
-    <h1><%= heading %></h1>
+  <article>
+    <h2>Yo!</h2>
     <p>
-      How about we check out some <a href="/examples">examples</a>?
+      <%= faker.lorem.paragraph() %>
     </p>
-
-    <% include app %>
-  </div>
+  </article>
 
 </html>

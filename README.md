@@ -4,15 +4,16 @@ Personal node.js setup for prototypes etc.
 
 ## Tech
 
-- [express.js](http://expressjs.com/) (Routing, REST, etc.)
+- [express](http://expressjs.com/) (Routing, REST, etc.)
 - [dotenv-safe](https://www.npmjs.com/package/dotenv-safe) (handling environment variables)
 - [webpack](https://webpack.github.io/) (bundling etc.)
 - [sqlite3](https://github.com/mapbox/node-sqlite3) (embedded database)
 - [sequelize](http://docs.sequelizejs.com/) (ORM models)
 - [ejs](http://ejs.co/) (server-side rendering)
-- [react.js](https://facebook.github.io/react/) (client-side rendering)
+- [react](https://facebook.github.io/react/) (client-side rendering)
 - [superagent](https://visionmedia.github.io/superagent/) (ajax)
 - [pure.css](http://purecss.io/) (styling)
+- [faker](http://marak.github.io/faker.js/) (mock data)
 
 ## Views
 

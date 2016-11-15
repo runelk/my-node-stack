@@ -26,7 +26,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="app-main">
-        <p> React is working! </p>
         <ExampleTable rows={this.state.rows} />
       </div>
     );
