@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  include partials/head
+  include partials/header
+
+  .examples
+    ul
+      each ex in examples
+        li
+          a(href=ex.url)= ex.name
+          = ' - ' + ex.text

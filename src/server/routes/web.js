@@ -6,10 +6,8 @@ var faker = require('faker');
 
 var navbar_items = [
   { url: '/', text: 'Home' },
-  { url: '/about', text: 'About' },
-  { url: '/news', text: 'News' },
   { url: '/examples', text: 'Examples' },
-  { url: '/app', text: 'App' },
+  { url: '/react', text: 'React' },
 ];
 
 router.route('/')
@@ -38,12 +36,12 @@ router.route('/examples')
     });
   });
 
-router.route('/app')
+router.route('/react')
   .get(function(req, res) {
-    res.render('app', {
-      title: 'App Example',
-      heading: 'App Example',
-      phrase: 'Using React aight?',
+    res.render('react', {
+      title: 'React Example',
+      heading: 'React Example',
+      phrase: 'Using React aight? Aight!',
       bundle: 'index',
       navbar: navbar_items
     });
