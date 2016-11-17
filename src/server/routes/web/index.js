@@ -1,8 +1,8 @@
 var express = require('express');
+var faker = require('faker');
 var router = express.Router({mergeParams: true});
 
-var models = require('../database/sequelize/models');
-var faker = require('faker');
+var models = require('../../database/sequelize/models');
 
 var navbar_items = [
   { url: '/', text: 'Home' },
