@@ -9,7 +9,7 @@ Personal node.js setup for prototypes etc.
 - [webpack](https://webpack.github.io/) (bundling etc.)
 - [sqlite3](https://github.com/mapbox/node-sqlite3) (embedded database)
 - [sequelize](http://docs.sequelizejs.com/) (ORM models)
-- [ejs](http://ejs.co/) (server-side rendering)
+- [pug](https://pugjs.org) (server-side rendering)
 - [react](https://facebook.github.io/react/) (client-side rendering)
 - [superagent](https://visionmedia.github.io/superagent/) (ajax)
 - [pure.css](http://purecss.io/) (styling)
