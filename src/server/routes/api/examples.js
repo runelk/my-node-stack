@@ -15,6 +15,9 @@ router.route('/:id')
     models.Example.findById(req.params.id).then(function(example) {
       res.json(example);
     });
+  })
+  .post(function(req, res) {
+    res.json([req.body, req.params]);
   });
 
 module.exports = router;
